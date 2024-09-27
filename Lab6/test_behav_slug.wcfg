@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="73871980000fs"></ZoomStartTime>
+      <ZoomEndTime time="74000080001fs"></ZoomEndTime>
+      <Cursor1Time time="74000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="281"></NameColumnWidth>
+      <ValueColumnWidth column_width="175"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="29" />
+   <wvobject fp_name="/test/UUT/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/frame" type="logic">
+      <obj_property name="ElementShortName">frame</obj_property>
+      <obj_property name="ObjectShortName">frame</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/frame" type="logic">
+      <obj_property name="ElementShortName">frame</obj_property>
+      <obj_property name="ObjectShortName">frame</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/IDLE" type="logic">
+      <obj_property name="ElementShortName">IDLE</obj_property>
+      <obj_property name="ObjectShortName">IDLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/genTime1" type="logic">
+      <obj_property name="ElementShortName">genTime1</obj_property>
+      <obj_property name="ObjectShortName">genTime1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/genLength1" type="logic">
+      <obj_property name="ElementShortName">genLength1</obj_property>
+      <obj_property name="ObjectShortName">genLength1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/Train1Wait" type="logic">
+      <obj_property name="ElementShortName">Train1Wait</obj_property>
+      <obj_property name="ObjectShortName">Train1Wait</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/Train1Des" type="logic">
+      <obj_property name="ElementShortName">Train1Des</obj_property>
+      <obj_property name="ObjectShortName">Train1Des</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/genTime2" type="logic">
+      <obj_property name="ElementShortName">genTime2</obj_property>
+      <obj_property name="ObjectShortName">genTime2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/genLength2" type="logic">
+      <obj_property name="ElementShortName">genLength2</obj_property>
+      <obj_property name="ObjectShortName">genLength2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/Train2Wait" type="logic">
+      <obj_property name="ElementShortName">Train2Wait</obj_property>
+      <obj_property name="ObjectShortName">Train2Wait</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/Train2Des" type="logic">
+      <obj_property name="ElementShortName">Train2Des</obj_property>
+      <obj_property name="ObjectShortName">Train2Des</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/nxtIDLE" type="logic">
+      <obj_property name="ElementShortName">nxtIDLE</obj_property>
+      <obj_property name="ObjectShortName">nxtIDLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/nxtgenTime1" type="logic">
+      <obj_property name="ElementShortName">nxtgenTime1</obj_property>
+      <obj_property name="ObjectShortName">nxtgenTime1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/nxtgenLength1" type="logic">
+      <obj_property name="ElementShortName">nxtgenLength1</obj_property>
+      <obj_property name="ObjectShortName">nxtgenLength1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/nxtTrain1Wait" type="logic">
+      <obj_property name="ElementShortName">nxtTrain1Wait</obj_property>
+      <obj_property name="ObjectShortName">nxtTrain1Wait</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/nxtTrain1Des" type="logic">
+      <obj_property name="ElementShortName">nxtTrain1Des</obj_property>
+      <obj_property name="ObjectShortName">nxtTrain1Des</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/nxtgenTime2" type="logic">
+      <obj_property name="ElementShortName">nxtgenTime2</obj_property>
+      <obj_property name="ObjectShortName">nxtgenTime2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/nxtgenLength2" type="logic">
+      <obj_property name="ElementShortName">nxtgenLength2</obj_property>
+      <obj_property name="ObjectShortName">nxtgenLength2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/nxtTrain2Wait" type="logic">
+      <obj_property name="ElementShortName">nxtTrain2Wait</obj_property>
+      <obj_property name="ObjectShortName">nxtTrain2Wait</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/nxtTrain2Des" type="logic">
+      <obj_property name="ElementShortName">nxtTrain2Des</obj_property>
+      <obj_property name="ObjectShortName">nxtTrain2Des</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/front1" type="array">
+      <obj_property name="ElementShortName">front1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">front1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/train1Back" type="array">
+      <obj_property name="ElementShortName">train1Back[15:0]</obj_property>
+      <obj_property name="ObjectShortName">train1Back[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/front2" type="array">
+      <obj_property name="ElementShortName">front2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">front2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/train2Back" type="array">
+      <obj_property name="ElementShortName">train2Back[15:0]</obj_property>
+      <obj_property name="ObjectShortName">train2Back[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/start1" type="logic">
+      <obj_property name="ElementShortName">start1</obj_property>
+      <obj_property name="ObjectShortName">start1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/start2" type="logic">
+      <obj_property name="ElementShortName">start2</obj_property>
+      <obj_property name="ObjectShortName">start2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/resetTimer" type="logic">
+      <obj_property name="ElementShortName">resetTimer</obj_property>
+      <obj_property name="ObjectShortName">resetTimer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/UUT/timer" type="array">
+      <obj_property name="ElementShortName">timer[15:0]</obj_property>
+      <obj_property name="ObjectShortName">timer[15:0]</obj_property>
+   </wvobject>
+</wave_config>

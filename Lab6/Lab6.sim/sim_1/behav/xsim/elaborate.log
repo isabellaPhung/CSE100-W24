@@ -1,0 +1,22 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto aa95a1f0b41d41f887cfbd146cf9a27e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 15 for port 'Din' [C:/Users/Isabella Phung/Documents/CSE100/Lab6/Lab6.srcs/sources_1/new/trainState.v:70]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 15 for port 'Din' [C:/Users/Isabella Phung/Documents/CSE100/Lab6/Lab6.srcs/sources_1/new/trainState.v:110]
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 15 for port 'Din' [C:/Users/Isabella Phung/Documents/CSE100/Lab6/Lab6.srcs/sources_1/new/trainState.v:111]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.FDRE_default
+Compiling module xil_defaultlib.EdgeDetector
+Compiling module unisims_ver.FDRE(INIT=1'b1)
+Compiling module xil_defaultlib.countUD5L
+Compiling module xil_defaultlib.countUD15L
+Compiling module xil_defaultlib.LFSR_default
+Compiling module xil_defaultlib.trainState_default
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav

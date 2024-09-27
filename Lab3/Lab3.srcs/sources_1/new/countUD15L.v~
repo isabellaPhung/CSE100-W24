@@ -1,0 +1,55 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 01/26/2024 02:03:00 PM
+// Design Name: 
+// Module Name: countUD15L
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module countUD15L(
+    input CE, //clock edge
+    input UD, //up/down, 1 when incrementing, 0 when decrementing
+    input LD, //load
+    input clk,
+    output UTC, //for resetting 15 to 0 when incrementing
+    output DTC, //for resetting 0 to 15 when decrementing
+    input [15:1] sw, //input
+    output [15:0] Q //output 
+    );
+
+    wire inc, dec;
+    assign inc = CE & UD; // if 1, increment
+    assign dec = CE & ~UD; // if 1, decrement
+
+    wire incTemp, decTemp;
+    wire [2:0] UTCtemp, DTCtemp;
+
+    countUD5L one(.UD(UD), .CE(CE), .clk(clk), .Din(sw[15:11]), .DTC(DTCtemp[0], .UTC(UTCtemp[0], .Q(Q[0:4])));
+    assign incTemp = inc & UTCtemp[0];
+    assign decTemp = dec & DTCtemp[0];
+
+    countUD5L two(.UD(UD), .CE(CE), .clk(clk), .Din(sw[10:6]), .DTC(DTCtemp[1]), .DTC(UTCtemp[1]), .Q(Q[9:5]));
+    assign incTemp = inc & UTCtemp[1];
+    assign decTemp = dec & DTCtemp[1];
+
+    countUD5L three(.UD(UD), .CE(CE), .clk(clk), .Din(sw[5:1]), .DTC(DTCtemp[2]), .DTC(UTCtemp[2]), .Q(Q[14:10]));
+    assign incTemp = inc & UTCtemp[2];
+    assign decTemp = dec & DTCtemp[2];
+
+    assign UTC = &(UTCtemp);
+    assign DTC = &(DTCtemp);
+endmodule

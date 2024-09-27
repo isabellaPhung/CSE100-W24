@@ -1,0 +1,14 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/Isabella Phung/Documents/CSE100/newLab2/newLab2.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/Isabella Phung/Documents/CSE100/newLab2/newLab2.srcs/sources_1/new/Add8.v,1705611510,verilog,,C:/Users/Isabella Phung/Documents/CSE100/newLab2/newLab2.srcs/sources_1/new/AddSub8.v,,Add8,,,,,,,,
+C:/Users/Isabella Phung/Documents/CSE100/newLab2/newLab2.srcs/sources_1/new/AddSub8.v,1705612619,verilog,,C:/Users/Isabella Phung/Documents/CSE100/newLab2/newLab2.srcs/sources_1/new/FA.v,,AddSub8,,,,,,,,
+C:/Users/Isabella Phung/Documents/CSE100/newLab2/newLab2.srcs/sources_1/new/FA.v,1705549394,verilog,,C:/Users/Isabella Phung/Documents/CSE100/newLab2/newLab2.srcs/sources_1/new/hex7seg.v,,FA,,,,,,,,
+C:/Users/Isabella Phung/Documents/CSE100/newLab2/newLab2.srcs/sources_1/new/hex7seg.v,1705430936,verilog,,C:/Users/Isabella Phung/Documents/CSE100/newLab2/newLab2.srcs/sources_1/new/lab2_digsel.v,,hex7seg,,,,,,,,
+C:/Users/Isabella Phung/Documents/CSE100/newLab2/newLab2.srcs/sources_1/new/lab2_digsel.v,1705428645,verilog,,C:/Users/Isabella Phung/Documents/CSE100/newLab2/newLab2.srcs/sources_1/new/multiplexer8.v,,CB4CE_MXILINX_clkcntrl4;FTCE_MXILINX_clkcntrl4;clk_wiz_0;clkcntrl4;lab2_digsel,,,,,,,,
+C:/Users/Isabella Phung/Documents/CSE100/newLab2/newLab2.srcs/sources_1/new/multiplexer8.v,1705543022,verilog,,C:/Users/Isabella Phung/Documents/CSE100/newLab2/newLab2.srcs/sources_1/new/top_lab2.v,,multiplexer8,,,,,,,,
+C:/Users/Isabella Phung/Documents/CSE100/newLab2/newLab2.srcs/sources_1/new/test.v,1705599872,verilog,,,,test,,,,,,,,
+C:/Users/Isabella Phung/Documents/CSE100/newLab2/newLab2.srcs/sources_1/new/test_addsub.v,1705598958,verilog,,C:/Users/Isabella Phung/Documents/CSE100/newLab2/newLab2.srcs/sources_1/new/test.v,,test_add,,,,,,,,
+C:/Users/Isabella Phung/Documents/CSE100/newLab2/newLab2.srcs/sources_1/new/top_lab2.v,1705594535,verilog,,C:/Users/Isabella Phung/Documents/CSE100/newLab2/newLab2.srcs/sources_1/new/test_addsub.v,,top_lab2,,,,,,,,

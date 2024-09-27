@@ -1,0 +1,74 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 01/26/2024 02:03:00 PM
+// Design Name: 
+// Module Name: countUD5L
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module countUD5L(
+    input UD, //up/down
+    input CE, //clock edge
+    input LD, //load
+    input [4:0] Din, //load input
+    input clk,
+    output UTC,
+    output DTC,
+    output [4:0] Q
+    );
+     
+    wire incTemp, decTemp;
+    assign inc = CE & UD; // if 1, increment
+    assign dec = CE & ~UD; // if 1, decrement
+    wire [4:0] D;
+    assign D = {5{LD}} & Din | ~{5{LD}} & {5{incdec}};//multiplexer, LD = 0, increment/decrement, LD = 1, load Din
+
+    wire incdec = inc | dec;
+    assign crement = incdec ^ Q[0];
+    assign D[0] = LD & Din[0] | ~LD crement; 
+    FDRE #(.INIT(1'b0)) FF1 (.C(clk), .CE(CE), D[0] ^ Q[0]), .Q(Q[0]));
+    assign incTemp = inc & Q[0];
+    assign decTemp = dec & ~Q[0];
+
+    assign incdec = inc | dec;
+    assign crement = incdec ^ Q[0];
+    assign D[1] = LD & Din[1] | ~LD crement; 
+    FDRE #(.INIT(1'b0)) FF2 (.C(clk), .CE(CE), D[1] ^ Q[1]), .Q(Q[1]));
+    assign incTemp = incTemp & Q[1];
+    assign decTemp = decTemp & ~Q[1];
+
+    assign incdec = inc | dec;
+    assign crement = incdec ^ Q[0];
+    assign D[2] = LD & Din[2] | ~LD crement; 
+    FDRE #(.INIT(1'b0)) FE3 (.C(clk), .CE(CE), D[2] ^ Q[2]), .Q(Q[2]));
+    assign incTemp = incTemp & Q[2];
+    assign decTemp = decTemp & ~Q[2];
+
+    assign incdec = inc | dec;
+    assign crement = incdec ^ Q[0];
+    assign D[3] = LD & Din[3] | ~LD crement; 
+    FDRE #(.INIT(1'b0)) FE4 (.C(clk), .CE(CE), D[3] ^ Q[3]), .Q(Q[3]));
+    assign incTemp = incTemp & Q[3];
+    assign decTemp = decTemp & ~Q[3];
+    
+    assign incdec = inc | dec;
+    assign crement = incdec ^ Q[0];
+    assign D[4] = LD & Din[4] | ~LD crement; 
+    FDRE #(.INIT(1'b0)) FE5 (.C(clk), .CE(CE), D[4] ^ Q[4]), .Q(Q[4]));
+    assign UTC = &(Q);
+    assign DTC = &(~Q);
+endmodule

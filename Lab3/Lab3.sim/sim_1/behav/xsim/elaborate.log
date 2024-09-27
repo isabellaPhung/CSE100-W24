@@ -1,0 +1,16 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 0d24e209aa484489a542e2124625c352 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Lab3test_behav xil_defaultlib.Lab3test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 15 for port 'Din' [C:/Users/Isabella Phung/Documents/CSE100/Lab3/Lab3.srcs/sim_1/new/Lab3test.v:35]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.FDRE_default
+Compiling module xil_defaultlib.countUD5L
+Compiling module xil_defaultlib.countUD15L
+Compiling module xil_defaultlib.Lab3test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Lab3test_behav

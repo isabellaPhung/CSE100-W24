@@ -1,0 +1,32 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 01/26/2024 02:03:00 PM
+// Design Name: 
+// Module Name: EdgeDetector
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module EdgeDetector(
+    input btnU,
+    input clk,
+    output out
+    );
+    wire b, c;
+    FDRE #(.INIT(1'b0)) one (.C(clk),  .R(1'b0), .CE(1'b1), .D(btnU), .Q(b));
+    FDRE #(.INIT(1'b0)) two (.C(clk),  .R(1'b0), .CE(1'b1), .D(b), .Q(c));
+    assign out = ~b&c;
+endmodule

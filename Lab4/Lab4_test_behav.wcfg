@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Lab3_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Lab3_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="11823240000fs"></ZoomStartTime>
+      <ZoomEndTime time="13021792890fs"></ZoomEndTime>
+      <Cursor1Time time="13000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="260"></NameColumnWidth>
+      <ValueColumnWidth column_width="208"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/Lab3_test/btnR" type="logic">
+      <obj_property name="ElementShortName">btnR</obj_property>
+      <obj_property name="ObjectShortName">btnR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/btnU" type="logic">
+      <obj_property name="ElementShortName">btnU</obj_property>
+      <obj_property name="ObjectShortName">btnU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/synchedU" type="logic">
+      <obj_property name="ElementShortName">synchedU</obj_property>
+      <obj_property name="ObjectShortName">synchedU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/btnC" type="logic">
+      <obj_property name="ElementShortName">btnC</obj_property>
+      <obj_property name="ObjectShortName">btnC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/btnL" type="logic">
+      <obj_property name="ElementShortName">btnL</obj_property>
+      <obj_property name="ObjectShortName">btnL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/stopIt/IDLE" type="logic">
+      <obj_property name="ElementShortName">IDLE</obj_property>
+      <obj_property name="ObjectShortName">IDLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/stopIt/TS" type="logic">
+      <obj_property name="ElementShortName">TS</obj_property>
+      <obj_property name="ObjectShortName">TS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/stopIt/GS" type="logic">
+      <obj_property name="ElementShortName">GS</obj_property>
+      <obj_property name="ObjectShortName">GS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/stopIt/M" type="logic">
+      <obj_property name="ElementShortName">M</obj_property>
+      <obj_property name="ObjectShortName">M</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/Match" type="logic">
+      <obj_property name="ElementShortName">Match</obj_property>
+      <obj_property name="ObjectShortName">Match</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/RunGame" type="logic">
+      <obj_property name="ElementShortName">RunGame</obj_property>
+      <obj_property name="ObjectShortName">RunGame</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/stopIt/NM" type="logic">
+      <obj_property name="ElementShortName">NM</obj_property>
+      <obj_property name="ObjectShortName">NM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/stopIt/W" type="logic">
+      <obj_property name="ElementShortName">W</obj_property>
+      <obj_property name="ObjectShortName">W</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/FourSecs" type="logic">
+      <obj_property name="ElementShortName">FourSecs</obj_property>
+      <obj_property name="ObjectShortName">FourSecs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/TwoSecs" type="logic">
+      <obj_property name="ElementShortName">TwoSecs</obj_property>
+      <obj_property name="ObjectShortName">TwoSecs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/ResetTimer" type="logic">
+      <obj_property name="ElementShortName">ResetTimer</obj_property>
+      <obj_property name="ObjectShortName">ResetTimer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/FlashBoth" type="logic">
+      <obj_property name="ElementShortName">FlashBoth</obj_property>
+      <obj_property name="ObjectShortName">FlashBoth</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/FlashAlt" type="logic">
+      <obj_property name="ElementShortName">FlashAlt</obj_property>
+      <obj_property name="ObjectShortName">FlashAlt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/randNum" type="array">
+      <obj_property name="ElementShortName">randNum[4:0]</obj_property>
+      <obj_property name="ObjectShortName">randNum[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/gameNum" type="array">
+      <obj_property name="ElementShortName">gameNum[4:0]</obj_property>
+      <obj_property name="ObjectShortName">gameNum[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/timeNum" type="array">
+      <obj_property name="ElementShortName">timeNum[4:0]</obj_property>
+      <obj_property name="ObjectShortName">timeNum[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/alternateQsec" type="logic">
+      <obj_property name="ElementShortName">alternateQsec</obj_property>
+      <obj_property name="ObjectShortName">alternateQsec</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/qsec" type="logic">
+      <obj_property name="ElementShortName">qsec</obj_property>
+      <obj_property name="ObjectShortName">qsec</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/sw" type="array">
+      <obj_property name="ElementShortName">sw[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/select" type="array">
+      <obj_property name="ElementShortName">select[3:0]</obj_property>
+      <obj_property name="ObjectShortName">select[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/an" type="array">
+      <obj_property name="ElementShortName">an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">an[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/an" type="array">
+      <obj_property name="ElementShortName">an[3:0]</obj_property>
+      <obj_property name="ObjectShortName">an[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/seg" type="array">
+      <obj_property name="ElementShortName">seg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/led" type="array">
+      <obj_property name="ElementShortName">led[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/shifter/Q" type="array">
+      <obj_property name="ElementShortName">Q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/led" type="array">
+      <obj_property name="ElementShortName">led[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Lab3_test/UUT/Won" type="logic">
+      <obj_property name="ElementShortName">Won</obj_property>
+      <obj_property name="ObjectShortName">Won</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,15 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/Isabella Phung/Documents/CSE100/Lab3/Lab3.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/Isabella Phung/Documents/CSE100/Lab3/Lab3.srcs/sim_1/imports/Downloads/testTC.v,1706660499,verilog,,,,testTC,,,,,,,,
+C:/Users/Isabella Phung/Documents/CSE100/Lab3/Lab3.srcs/sim_1/new/Lab3test.v,1706834097,verilog,,C:/Users/Isabella Phung/Documents/CSE100/Lab3/Lab3.srcs/sim_1/imports/Downloads/testTC.v,,Lab3test,,,,,,,,
+C:/Users/Isabella Phung/Documents/CSE100/Lab3/Lab3.srcs/sources_1/imports/Downloads/labCnt_clks.v,1706602250,verilog,,C:/Users/Isabella Phung/Documents/CSE100/Lab3/Lab3.srcs/sources_1/new/top_lab3.v,,CB4CE_MXILINX_clkcntrl4;FTCE_MXILINX_clkcntrl4;clk_wiz_0;clkcntrl4;labCnt_clks,,,,,,,,
+C:/Users/Isabella Phung/Documents/CSE100/Lab3/Lab3.srcs/sources_1/imports/new/hex7seg.v,1705611708,verilog,,C:/Users/Isabella Phung/Documents/CSE100/Lab3/Lab3.srcs/sources_1/imports/Downloads/labCnt_clks.v,,hex7seg,,,,,,,,
+C:/Users/Isabella Phung/Documents/CSE100/Lab3/Lab3.srcs/sources_1/new/EdgeDetector.v,1706650718,verilog,,C:/Users/Isabella Phung/Documents/CSE100/Lab3/Lab3.srcs/sources_1/new/RingCounter.v,,EdgeDetector,,,,,,,,
+C:/Users/Isabella Phung/Documents/CSE100/Lab3/Lab3.srcs/sources_1/new/RingCounter.v,1706684457,verilog,,C:/Users/Isabella Phung/Documents/CSE100/Lab3/Lab3.srcs/sources_1/new/Selector.v,,RingCounter,,,,,,,,
+C:/Users/Isabella Phung/Documents/CSE100/Lab3/Lab3.srcs/sources_1/new/Selector.v,1706728775,verilog,,C:/Users/Isabella Phung/Documents/CSE100/Lab3/Lab3.srcs/sources_1/new/countUD15L.v,,Selector,,,,,,,,
+C:/Users/Isabella Phung/Documents/CSE100/Lab3/Lab3.srcs/sources_1/new/countUD15L.v,1706834052,verilog,,C:/Users/Isabella Phung/Documents/CSE100/Lab3/Lab3.srcs/sources_1/new/countUD5L.v,,countUD15L,,,,,,,,
+C:/Users/Isabella Phung/Documents/CSE100/Lab3/Lab3.srcs/sources_1/new/countUD5L.v,1706658351,verilog,,C:/Users/Isabella Phung/Documents/CSE100/Lab3/Lab3.srcs/sources_1/imports/new/hex7seg.v,,countUD5L,,,,,,,,
+C:/Users/Isabella Phung/Documents/CSE100/Lab3/Lab3.srcs/sources_1/new/top_lab3.v,1706739761,verilog,,C:/Users/Isabella Phung/Documents/CSE100/Lab3/Lab3.srcs/sim_1/new/Lab3test.v,,top_lab3,,,,,,,,
